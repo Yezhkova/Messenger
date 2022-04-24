@@ -7,6 +7,9 @@
 #include <string>
 #include <iostream>
 
+#define LOG(expr) std::cout << expr << '\n';
+#define LOG_WARN(expr) std::cerr << expr << '\n';
+
 class Log
 {
 public:
